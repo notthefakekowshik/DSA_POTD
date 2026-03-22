@@ -1,0 +1,11 @@
+# Gemini Context: DSA POTD
+
+**Objective:** Prep for SDE-2 roles at top PBCs. 3.5 years Java Exp.
+
+**Rules:**
+- Default Language: Java.
+- Critique approach first (why it's not Senior level).
+- Progression: Mid (Brute) -> Senior (Optimized) -> Staff (Deep Internals/Scale).
+- Always include Time/Space Complexity.
+- Suggest related patterns at the end.
+- Maintain JOURNAL.md.
