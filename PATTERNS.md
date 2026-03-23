@@ -67,6 +67,9 @@ This document serves as a mental index for recognizing which pattern to apply wh
 - Reorder List
 - Remove Nth Node From End of List
 - Merge k Sorted Lists
+- Reverse Linked List
+- Merge Two Sorted Lists
+- Add Two Numbers
 
 ---
 
@@ -107,4 +110,4 @@ When adding a new pattern, use this structure:
 
 ---
 
-**Last Updated:** 2026-03-22
+**Last Updated:** 2026-03-23

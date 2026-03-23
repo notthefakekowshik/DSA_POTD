@@ -64,7 +64,15 @@ To simulate a real interview environment:
   - **Complexity Headers:** Every method implementation MUST be preceded by exactly two lines of comments: one for Time Complexity and one for Space Complexity.
   - **Optimization Path:** When a problem can be solved with multiple distinct patterns (e.g., Heap vs Bucket Sort), implement both methods in the same file to demonstrate the optimization progression.
 
-## 5. Persistence & Tracking (JOURNAL.md)
+## 5. Topic Progression Rule
+
+**Complete one topic before moving to the next.**
+
+- Do not start a new pattern/topic until all standard interview-relevant problems for the current topic are solved.
+- Use PATTERNS.md and the standard SDE-2 problem set as the checklist for "complete."
+- Only exception: if a problem explicitly requires a secondary pattern (e.g., Heaps inside a Graph problem), that is incidental and does not count as starting a new topic.
+
+## 6. Persistence & Tracking (JOURNAL.md)
 
 The `JOURNAL.md` file is the primary source for long-term retention and revision.
 
@@ -73,7 +81,7 @@ The `JOURNAL.md` file is the primary source for long-term retention and revision
 - **Key Insights:** Focus the "Key Insight" column on the "Aha!" moment or the specific reason a certain pattern was chosen. Be specific and detailed - this is the most valuable part of the journal.
 - **Revision Reference:** This file must be treated as a living document to be reviewed monthly to reinforce concepts that are easily forgotten.
 
-## 6. Pattern Recognition Index (PATTERNS.md)
+## 7. Pattern Recognition Index (PATTERNS.md)
 
 The `PATTERNS.md` file is your mental index for recognizing which pattern to apply during interviews.
 

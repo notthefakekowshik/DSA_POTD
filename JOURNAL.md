@@ -15,3 +15,7 @@
 | 2026-03-22 | K Closest Points to Origin | Medium | Max-Heap / Quickselect | Use Max-Heap of size K for O(N log K) |
 | 2026-03-22 | Task Scheduler | Medium | Greedy + Heap | Math formula vs Simulation |
 | 2026-03-22 | Smallest Range Covering K Lists | Hard | Min-Heap + N-Pointer | Track min/max across K sorted lists |
+| --- | --- | --- | --- | --- |
+| 2026-03-23 | Reverse Linked List | Easy | Linked List | Stack uses O(N) space; iterative prev/curr pointer dance achieves O(1) — JVM has no TCO so recursive is strictly worse |
+| 2026-03-23 | Merge Two Sorted Lists | Easy | Linked List | Dummy head eliminates first-node branch; recursive is elegant but O(M+N) call-stack — iterative splices existing nodes at O(1) |
+| 2026-03-23 | Add Two Numbers | Medium | Linked List, Math | Digits stored in reverse = carry flows naturally left-to-right; `|| carry != 0` in loop condition handles the final overflow digit |
