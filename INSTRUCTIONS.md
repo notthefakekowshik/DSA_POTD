@@ -70,5 +70,17 @@ The `JOURNAL.md` file is the primary source for long-term retention and revision
 
 - **Daily Updates:** Update the journal immediately upon completing a problem.
 - **Day Differentiation:** Use a separator row (e.g., `| --- | --- | --- | --- | --- |`) between entries of different days to clearly distinguish them.
-- **Key Insights:** Focus the "Key Insight" column on the "Aha!" moment or the specific reason a certain pattern was chosen.
+- **Key Insights:** Focus the "Key Insight" column on the "Aha!" moment or the specific reason a certain pattern was chosen. Be specific and detailed - this is the most valuable part of the journal.
 - **Revision Reference:** This file must be treated as a living document to be reviewed monthly to reinforce concepts that are easily forgotten.
+
+## 6. Pattern Recognition Index (PATTERNS.md)
+
+The `PATTERNS.md` file is your mental index for recognizing which pattern to apply during interviews.
+
+- **Update After Each Problem:** When completing a problem, add it to the "Problems Solved" list under the relevant pattern section.
+- **New Pattern Introduction:** When starting a new pattern category (e.g., Dynamic Programming, Graphs):
+  - Add a new section following the template provided in PATTERNS.md
+  - Include: When to use, Key Recognition Triggers, Common Patterns, Time Complexity
+  - Update the Quick Reference Table at the bottom
+- **Pattern Insights:** As you solve more problems, refine the "Key Recognition Triggers" based on what helped you identify the pattern
+- **Weekly Review:** Every Sunday, review PATTERNS.md to reinforce pattern recognition skills
