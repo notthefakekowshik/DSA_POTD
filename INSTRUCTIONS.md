@@ -1,6 +1,6 @@
 # Problem-Solving Protocol (The Brain)
 
-This document defines the mandatory workflow for every DSA problem addressed in this repository. Concentration on the problems which are important for interviews at top PBCs only.
+This document defines the mandatory workflow for every DSA problem addressed in this repository. Concentration on both high-impact "Must-Know" and comprehensive "Nice-to-Know" problems to ensure exhaustive coverage of each topic, leaving no stone unturned for top-tier PBC interviews.
 
 ## 1. Initial Critique
 
@@ -53,7 +53,7 @@ Every solution must include:
 To simulate a real interview environment:
 
 - **Problem Provider:** Gemini CLI will provide the problems daily:
-  - **Selection Logic:** Before suggesting problems, refer to `JOURNAL.md` to avoid daily repetition. High-impact "Must-Know" problems or complex patterns can be repeated occasionally for reinforcement (spaced repetition).
+  - Selection Logic: Before suggesting problems, refer to `JOURNAL.md` to avoid daily repetition. High-impact "Must-Know" problems or complex patterns can be repeated occasionally for reinforcement (spaced repetition). Following the "Must-Know" set, Gemini will suggest "Nice-to-Know" problems (complex variants, edge cases) to ensure 100% topic mastery.
   - **Weekdays:** 1 Easy, 2 Medium.
   - **Weekends:** 1 Easy, 2 Medium, 1 Hard.
 - **File Creation:** Create a dedicated Java class for each problem in the appropriate sub-package of `com.dsapotd`. Use deeply nested packages where appropriate (e.g., `com.dsapotd.graphs.dsu`, `com.dsapotd.trees.segment`). And also, populate necessary data to execute the code directly.
@@ -70,7 +70,7 @@ To simulate a real interview environment:
 **Complete one topic before moving to the next.**
 
 - Do not start a new pattern/topic until all standard interview-relevant problems for the current topic are solved.
-- Use PATTERNS.md and the standard SDE-2 problem set as the checklist for "complete."
+- Use PATTERNS.md, the standard SDE-2 problem set, and comprehensive "Nice-to-Know" variants as the checklist for "complete."
 - Only exception: if a problem explicitly requires a secondary pattern (e.g., Heaps inside a Graph problem), that is incidental and does not count as starting a new topic.
 
 ## 6. Persistence & Tracking (JOURNAL.md)

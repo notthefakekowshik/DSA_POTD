@@ -73,6 +73,12 @@ This document serves as a mental index for recognizing which pattern to apply wh
 - Intersection of Two Linked Lists
 - Copy List with Random Pointer
 - Sort List
+- Palindrome Linked List
+- LRU Cache
+- Rotate List
+- Swap Nodes in Pairs
+- Partition List
+- Reverse Linked List II
 
 ---
 
@@ -113,4 +119,4 @@ When adding a new pattern, use this structure:
 
 ---
 
-**Last Updated:** 2026-03-23
+**Last Updated:** 2026-03-24

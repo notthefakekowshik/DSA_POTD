@@ -22,3 +22,10 @@
 | 16 | 2026-03-23 | Intersection of Two Linked Lists | Easy | Two Pointers | Two-pointer alignment trick (swapping heads) equalizes the distance to intersection; O(1) space. |
 | 17 | 2026-03-23 | Copy List with Random Pointer | Medium | Linked List | In-place interweaving (A->A'->B->B') allows deep copy with O(1) extra space by leveraging the existing structure. |
 | 18 | 2026-03-23 | Sort List | Medium | Merge Sort | Bottom-up merge sort (iterative with step 1, 2, 4...) is the only way to achieve O(1) space sorting on lists. |
+| --- | --- | --- | --- | --- | --- |
+| 19 | 2026-03-24 | Palindrome Linked List | Easy | Two Pointers | Reverse the second half in-place; restoring the list afterwards is a hallmark of senior-level implementation. |
+| 20 | 2026-03-24 | LRU Cache | Medium | DLL + Map | HashMap for O(1) lookups, Doubly Linked List for O(1) eviction/updates. |
+| 21 | 2026-03-24 | Rotate List | Medium | Two Pointers | Forming a circular list and then breaking it at (L - k % L) is the most efficient $O(N)$ approach. |
+| 22 | 2026-03-24 | Swap Nodes in Pairs | Medium | Linked List | Iterative dummy node approach is cleaner and uses O(1) space compared to recursion. |
+| 23 | 2026-03-24 | Partition List | Medium | Two Pointers | Creating two separate chains (less/greater) and stitching them is the most reliable O(N) strategy. |
+| 24 | 2026-03-24 | Reverse Linked List II | Medium | Linked List | A single-pass "pointer-shift" dance reverses sub-ranges without detaching segments. |
