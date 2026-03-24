@@ -65,12 +65,16 @@ To simulate a real interview environment:
   - **Complexity Headers:** Every method implementation MUST be preceded by exactly two lines of comments: one for Time Complexity and one for Space Complexity.
   - **Optimization Path:** When a problem can be solved with multiple distinct patterns (e.g., Heap vs Bucket Sort), implement both methods in the same file to demonstrate the optimization progression.
 
-## 5. Topic Progression Rule
+## 5. Topic Progression Rule & The "No Stone Unturned" Guarantee
 
 **Complete one topic before moving to the next.**
 
-- Do not start a new pattern/topic until all standard interview-relevant problems for the current topic are solved.
-- Use PATTERNS.md, the standard SDE-2 problem set, and comprehensive "Nice-to-Know" variants as the checklist for "complete."
+- **CRITICAL AI INSTRUCTION - PRESERVE TRUST:** The user relies heavily on this repository and the AI agent for their interview prep. DO NOT take shortcuts. You MUST NOT declare a topic complete until every single important pattern, math proof, and design question is covered from standard lists. Leaving gaps violates the user's trust.
+- **Mandatory Pre-Flight Checklist:** Before starting a topic, or before declaring it "complete," Gemini must cross-reference comprehensive standard interview lists (e.g., Blind 75, NeetCode 150, Striver's SDE, Grokking) to ensure ZERO gaps.
+- **Explicit Coverage Requirements:**
+  - **Algorithmic Proofs:** Must include problems that prove the underlying math (e.g., Linked List Cycle II for Tortoise/Hare).
+  - **Complex Design Problems:** Must include advanced data structure design questions (e.g., LFU Cache, All O`one Data Structure, Browser History) that combine the current topic with secondary structures (Maps/Sets).
+- Use PATTERNS.md, the standard SDE-2 problem set, and comprehensive "Nice-to-Know"/Design variants as the checklist for "complete." Do not rush. It is always better to spend extra days on a topic than to leave a critical interview pattern uncovered.
 - Only exception: if a problem explicitly requires a secondary pattern (e.g., Heaps inside a Graph problem), that is incidental and does not count as starting a new topic.
 
 ## 6. Persistence & Tracking (JOURNAL.md)

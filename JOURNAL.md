@@ -29,3 +29,10 @@
 | 22 | 2026-03-24 | Swap Nodes in Pairs | Medium | Linked List | Iterative dummy node approach is cleaner and uses O(1) space compared to recursion. |
 | 23 | 2026-03-24 | Partition List | Medium | Two Pointers | Creating two separate chains (less/greater) and stitching them is the most reliable O(N) strategy. |
 | 24 | 2026-03-24 | Reverse Linked List II | Medium | Linked List | A single-pass "pointer-shift" dance reverses sub-ranges without detaching segments. |
+| 25 | 2026-03-24 | Linked List Cycle II | Medium | Math + Two Pointers | Floyd's proof: Distance(Fast) = 2*Distance(Slow) means starting a pointer at head and slow at intersection will meet at cycle start. |
+| 26 | 2026-03-24 | LFU Cache | Hard | 2 Maps + DLL | One Map for Key->Node, one for Freq->DoublyLinkedList. O(1) eviction requires tracking the global minimum frequency. |
+| 27 | 2026-03-24 | Design Browser History | Medium | Doubly Linked List | Keeping a `curr` pointer and severing `curr.next` on new visits provides safe O(1) history tracking. |
+| 28 | 2026-03-24 | All O`one Data Structure | Hard | Map + DLL (Freq) | A doubly linked list where each node is a *frequency* that contains a Set of strings. Gives O(1) Min/Max access. |
+| 29 | 2026-03-24 | Reverse Nodes in k-Group | Hard | Linked List | Iterative counting and sub-range reversal. Maintaining `pre`, `curr`, and `nex` pointers safely is key. |
+| 30 | 2026-03-24 | Flatten Multilevel Doubly Linked List | Medium | DFS / Iterative | Iteratively checking `child`, linking it to `next`, and finding the child's `tail` to stitch it back achieves O(1) space. |
+| 31 | 2026-03-24 | Remove Duplicates from Sorted List II | Medium | Two Pointers | A dummy node and skipping entire blocks of `head.val == head.next.val` ensures all duplicates are purged. |

@@ -79,6 +79,13 @@ This document serves as a mental index for recognizing which pattern to apply wh
 - Swap Nodes in Pairs
 - Partition List
 - Reverse Linked List II
+- Linked List Cycle II
+- LFU Cache
+- Design Browser History
+- All O`one Data Structure
+- Reverse Nodes in k-Group
+- Flatten a Multilevel Doubly Linked List
+- Remove Duplicates from Sorted List II
 
 ---
 
