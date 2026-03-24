@@ -70,6 +70,9 @@ This document serves as a mental index for recognizing which pattern to apply wh
 - Reverse Linked List
 - Merge Two Sorted Lists
 - Add Two Numbers
+- Intersection of Two Linked Lists
+- Copy List with Random Pointer
+- Sort List
 
 ---
 

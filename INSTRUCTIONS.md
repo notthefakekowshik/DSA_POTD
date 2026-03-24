@@ -53,6 +53,7 @@ Every solution must include:
 To simulate a real interview environment:
 
 - **Problem Provider:** Gemini CLI will provide the problems daily:
+  - **Selection Logic:** Before suggesting problems, refer to `JOURNAL.md` to avoid daily repetition. High-impact "Must-Know" problems or complex patterns can be repeated occasionally for reinforcement (spaced repetition).
   - **Weekdays:** 1 Easy, 2 Medium.
   - **Weekends:** 1 Easy, 2 Medium, 1 Hard.
 - **File Creation:** Create a dedicated Java class for each problem in the appropriate sub-package of `com.dsapotd`. Use deeply nested packages where appropriate (e.g., `com.dsapotd.graphs.dsu`, `com.dsapotd.trees.segment`). And also, populate necessary data to execute the code directly.
@@ -77,7 +78,10 @@ To simulate a real interview environment:
 The `JOURNAL.md` file is the primary source for long-term retention and revision.
 
 - **Daily Updates:** Update the journal immediately upon completing a problem.
-- **Day Differentiation:** Use a separator row (e.g., `| --- | --- | --- | --- | --- |`) between entries of different days to clearly distinguish them.
+- **Serial Numbering:** Use a `S.No` column as the first column.
+    - **New Problems:** Assign a unique, incremental serial number.
+    - **Repeated Problems:** If a problem is solved again for reinforcement, log it under the current date but leave the `S.No` column empty. This distinguishes new progress from spaced repetition.
+- **Day Differentiation:** Use a separator row (e.g., `| --- | --- | --- | --- | --- | --- |`) between entries of different days to clearly distinguish them.
 - **Key Insights:** Focus the "Key Insight" column on the "Aha!" moment or the specific reason a certain pattern was chosen. Be specific and detailed - this is the most valuable part of the journal.
 - **Revision Reference:** This file must be treated as a living document to be reviewed monthly to reinforce concepts that are easily forgotten.
 
