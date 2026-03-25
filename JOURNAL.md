@@ -36,3 +36,5 @@
 | 29 | 2026-03-24 | Reverse Nodes in k-Group | Hard | Linked List | Iterative counting and sub-range reversal. Maintaining `pre`, `curr`, and `nex` pointers safely is key. |
 | 30 | 2026-03-24 | Flatten Multilevel Doubly Linked List | Medium | DFS / Iterative | Iteratively checking `child`, linking it to `next`, and finding the child's `tail` to stitch it back achieves O(1) space. |
 | 31 | 2026-03-24 | Remove Duplicates from Sorted List II | Medium | Two Pointers | A dummy node and skipping entire blocks of `head.val == head.next.val` ensures all duplicates are purged. |
+| --- | --- | --- | --- | --- | --- |
+| 32 | 2026-03-25 | All O`one (Thread-Safe) | Hard | StampedLock + DLL | `StampedLock` allows optimistic reads for `getMaxKey`/`getMinKey`, providing high concurrency without blocking writers. |
