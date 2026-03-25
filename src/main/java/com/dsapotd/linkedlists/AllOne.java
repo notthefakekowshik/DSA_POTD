@@ -128,5 +128,8 @@ public class AllOne {
         allOne.inc("leet");
         System.out.println(allOne.getMaxKey()); // "hello"
         System.out.println(allOne.getMinKey()); // "leet"
+        allOne.dec("hello");
+        System.out.println(allOne.getMaxKey()); // "hello" or "leet"
+        System.out.println(allOne.getMinKey()); // "hello" or "leet"
     }
 }
