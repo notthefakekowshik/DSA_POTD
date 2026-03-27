@@ -36,6 +36,17 @@ This document serves as a mental index for recognizing which pattern to apply wh
 - K Closest Points to Origin
 - Task Scheduler
 - Smallest Range Covering K Lists
+- Relative Ranks
+- Design Twitter
+- Find K Pairs with Smallest Sums
+- IPO
+- Sliding Window Median
+- Kth Smallest Element in a Sorted Matrix
+- Minimum Cost to Connect Sticks
+- Meeting Rooms II
+- Reorganize String
+- Ugly Number II
+- Trapping Rain Water II
 
 ---
 
@@ -126,4 +137,4 @@ When adding a new pattern, use this structure:
 
 ---
 
-**Last Updated:** 2026-03-24
+**Last Updated:** 2026-03-27
